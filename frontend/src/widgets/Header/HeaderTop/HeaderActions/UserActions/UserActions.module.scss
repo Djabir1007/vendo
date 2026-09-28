@@ -1,0 +1,44 @@
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.createButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 44px;
+  padding: 0 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.plus {
+  font-size: 24px;
+}
+
+.createText {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}

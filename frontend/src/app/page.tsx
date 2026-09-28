@@ -1,7 +1,10 @@
+import { Header } from "@/widgets/Header/Header";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Vendo</h1>
-    </main>
+    <>
+      <Header />
+      <main></main>
+    </>
   );
 }
