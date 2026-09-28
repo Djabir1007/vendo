@@ -1,0 +1,18 @@
+.categoryList {
+  padding: 12px 0;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.categoryItem {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 14.5px;
+}
+
+.more {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  font-size: 14.5px;
+}

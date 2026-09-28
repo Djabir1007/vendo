@@ -1,0 +1,13 @@
+.button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 14px;
+  white-space: nowrap;
+}

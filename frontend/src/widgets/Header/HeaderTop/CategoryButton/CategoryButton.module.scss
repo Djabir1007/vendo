@@ -1,0 +1,17 @@
+.button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  border: none;
+  height: 44px;
+  border-radius: 12px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.text {
+  font-weight: 500;
+  white-space: nowrap;
+}

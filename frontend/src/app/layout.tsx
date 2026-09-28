@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
-import { Source_Sans_3 } from "next/font/google";
+import { sourceSans } from "@/shared/fonts/fonts";
 import "./globals.scss";
-
-const sourceSans = Source_Sans_3({
-  subsets: ["latin", "cyrillic"],
-});
 
 export const metadata: Metadata = {
   title: "Vendo",
