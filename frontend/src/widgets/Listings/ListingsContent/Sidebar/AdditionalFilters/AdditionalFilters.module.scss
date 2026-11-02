@@ -1,0 +1,40 @@
+.additionalFilters {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filterOption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle {
+  position: relative;
+  width: 64px;
+  height: 36px;
+  border: none;
+  border-radius: 999px;
+  background: #d3cec3;
+  cursor: pointer;
+}
+
+.toggleActive {
+  background: var(--color-primary);
+}
+
+.toggleKnob {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--color-surface);
+}
+
+.toggleActive .toggleKnob {
+  left: 32px;
+}
