@@ -1,0 +1,9 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  background-color: var(--color-surface);
+  border: 1px solid #e5dfd3;
+  padding: 18px;
+  border-radius: 18px;
+}

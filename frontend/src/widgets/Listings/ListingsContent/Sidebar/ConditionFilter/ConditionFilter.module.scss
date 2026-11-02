@@ -1,0 +1,19 @@
+@use "@/shared/styles/mixins" as mixins;
+
+.conditionFilter {
+  margin-bottom: 20px;
+}
+
+.filterTitle {
+  @include mixins.section-title;
+}
+
+.conditionOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.conditionOption {
+  @include mixins.filter-option;
+}

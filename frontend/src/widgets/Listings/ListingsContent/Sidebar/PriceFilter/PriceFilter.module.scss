@@ -1,0 +1,23 @@
+@use "@/shared/styles/mixins" as mixins;
+
+.priceFilter {
+  margin-bottom: 20px;
+}
+
+.filterTitle {
+  @include mixins.section-title;
+}
+
+.priceContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.priceInput {
+  min-width: 0;
+  height: 42px;
+  padding: 0 12px;
+  border: 1px solid var(--color-line);
+  border-radius: 12px;
+  font-size: 14px;
+}

@@ -1,0 +1,103 @@
+.productCard {
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  border-radius: 16px;
+  background: var(--color-surface);
+}
+
+.imageArea {
+  position: relative;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageBeige {
+  background: #f3e4d0;
+}
+
+.imageSage {
+  background: #dfe8e3;
+}
+
+.imageGreen {
+  background: #e4ead7;
+}
+
+.imagePink {
+  background: #e9dfe6;
+}
+
+.productImage {
+  width: 80px;
+  height: 80px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.freeBadge {
+  background: var(--color-amber);
+}
+
+.reservedBadge {
+  background: var(--color-surface);
+}
+
+.details {
+  padding: 12px;
+}
+
+.price {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.title {
+  min-height: 36px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.meta {
+  margin-top: 12px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.sellerType {
+  padding: 4px 7px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.privateSeller {
+  background: var(--color-sand);
+}
+
+.shopSeller {
+  background: var(--color-graphite);
+  color: var(--color-surface);
+}
+
+.location {
+  color: var(--color-text-secondary);
+  font-size: 11px;
+}

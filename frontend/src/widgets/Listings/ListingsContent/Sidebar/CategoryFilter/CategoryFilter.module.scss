@@ -1,0 +1,45 @@
+@use "@/shared/styles/mixins" as mixins;
+
+.categoryFilter {
+  margin-bottom: 20px;
+}
+
+.filterTitle {
+  @include mixins.section-title;
+}
+
+.categoryList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.categoryItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.categoryItem input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #bdb6a8;
+  border-radius: 6px;
+}
+
+.categoryName {
+  margin-left: 10px;
+  font-size: 14.5px;
+}
+
+.categoryCount {
+  margin-left: auto;
+  color: var(--color-text-secondary);
+  font-size: 14.5px;
+}

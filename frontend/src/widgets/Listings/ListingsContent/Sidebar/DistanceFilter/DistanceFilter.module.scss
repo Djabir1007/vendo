@@ -1,0 +1,23 @@
+@use "@/shared/styles/mixins" as mixins;
+
+.distanceFilter {
+  margin-bottom: 20px;
+}
+
+.filterTitle {
+  @include mixins.section-title;
+}
+
+.distanceOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.distanceOption {
+  @include mixins.filter-option;
+}
+
+.distanceOptionActive {
+  @include mixins.filter-option-active;
+}
