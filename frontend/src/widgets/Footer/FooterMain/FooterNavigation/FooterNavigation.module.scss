@@ -1,0 +1,36 @@
+.footerNavigation {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+}
+.footerNavigationGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footerNavigationTitle {
+  color: #171717;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footerNavigationList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  list-style: none;
+}
+
+.footerNavigationLink {
+  color: #454545;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #176b4b;
+  }
+}
