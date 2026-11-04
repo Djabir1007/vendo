@@ -1,8 +1,4 @@
-type Category = {
-  id: number;
-  title: string;
-  href: string;
-};
+import type { Category } from "../types/category";
 
 export const categories: Category[] = [
   {
