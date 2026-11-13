@@ -19,3 +19,16 @@
   border-color: var(--color-primary);
   color: var(--color-surface);
 }
+
+@mixin card {
+  padding: 24px;
+  border: 1px solid var(--color-line);
+  border-radius: 16px;
+  background: var(--color-surface);
+}
+
+@mixin card-title {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}

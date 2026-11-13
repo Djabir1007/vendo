@@ -1,0 +1,65 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mainImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1.46;
+  border-radius: 20px;
+  background: var(--color-sage);
+}
+
+.mainIcon {
+  width: 180px;
+  height: 180px;
+}
+
+.thumbnails {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.thumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1.46;
+  border: 1.5px solid transparent;
+  border-radius: 14px;
+  background: var(--color-sage);
+  cursor: pointer;
+}
+
+.thumbnailActive {
+  border-color: var(--color-primary);
+}
+
+.thumbnailIcon {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 680px) {
+  .mainIcon {
+    width: 120px;
+    height: 120px;
+  }
+
+  .thumbnails {
+    gap: 8px;
+  }
+
+  .thumbnail {
+    border-radius: 10px;
+  }
+
+  .thumbnailIcon {
+    width: 28px;
+    height: 28px;
+  }
+}

@@ -1,0 +1,24 @@
+@use "@/shared/styles/mixins" as mixins;
+
+.description {
+  @include mixins.card;
+}
+
+.title {
+  @include mixins.card-title;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 680px) {
+  .description {
+    padding: 20px;
+  }
+
+  .text {
+    font-size: 13.5px;
+  }
+}
