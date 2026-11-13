@@ -1,0 +1,15 @@
+.safetyNotice {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 20px;
+  border-radius: 16px;
+  background: var(--color-warning);
+  color: var(--color-warning-text);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.icon {
+  flex-shrink: 0;
+}

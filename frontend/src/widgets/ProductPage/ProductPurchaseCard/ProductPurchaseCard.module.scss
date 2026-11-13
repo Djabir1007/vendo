@@ -1,0 +1,87 @@
+@use "@/shared/styles/mixins" as mixins;
+
+.purchaseCard {
+  @include mixins.card;
+}
+
+.price {
+  margin-bottom: 12px;
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.title {
+  margin-bottom: 12px;
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.primaryButton,
+.secondaryButton,
+.favoriteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primaryButton,
+.secondaryButton {
+  height: 48px;
+  border-radius: 10px;
+}
+
+.primaryButton {
+  border: none;
+  background: var(--color-primary);
+  color: var(--color-surface);
+}
+
+.secondaryButton {
+  border: 1px solid var(--color-line);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.favoriteButton {
+  width: 100%;
+  margin-top: 16px;
+  padding: 8px 0;
+  border: none;
+  background: none;
+  color: var(--color-primary);
+}
+
+@media (max-width: 680px) {
+  .purchaseCard {
+    padding: 20px;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+
+  .title {
+    font-size: 19px;
+  }
+}

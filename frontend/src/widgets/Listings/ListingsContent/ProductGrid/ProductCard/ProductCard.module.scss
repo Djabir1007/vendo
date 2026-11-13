@@ -5,6 +5,12 @@
   background: var(--color-surface);
 }
 
+.link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
 .imageArea {
   position: relative;
   height: 175px;
